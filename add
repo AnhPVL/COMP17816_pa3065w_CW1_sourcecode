@@ -1,0 +1,66 @@
+//prepareDatabase(db);
+
+/*
+$(document).on('pagebeforeshow', '#page-create', funtion(){
+        db.transaction(function (tx) {
+            var query = 'SELECT * FROM City';
+            tx.executeSql(query, [], transactionSuccess, transactionError);
+            
+            function transactionSuccess(tx, result){
+                var optionList = `<option value="1"> Select city </option>`
+            for (let item of result.row){
+                optionList += `<option value='${item.Id}' selected >${item.Name} </option>`;
+          //  optionList += `<option value='${item.Id}' ${item.Id == selectedId ? 'selected' : '' }>${item.Name} </option>`;
+
+            }
+
+            }
+    
+            
+
+});
+}
+
+$(document).on()
+function importDistrict(form, ){
+var name = $('#page-create #frm-register', confirmProperty);')
+/*db.transaction(function (tx) {
+    var query = 'SELECT * FROM City';
+    tx.executeSql(query, [], transactionSuccess, transactionError);
+    
+    function transactionSuccess(tx, result){
+        var optionList = `<option value="1"> Select city </option>`
+    for (let item of result.row){
+        optionList += `<option value='${item.Id}' selected >${item.Name} </option>`;
+  //  optionList += `<option value='${item.Id}' ${item.Id == selectedId ? 'selected' : '' }>${item.Name} </option>`;
+
+    }
+
+    }})
+    */
+
+
+/*$(document).on('submit', '#page-create #frm-register', validateSelectProvince);
+function validateSelectProvince(obj)
+            {
+                // Get List of options
+                var options = obj.children;
+ 
+                // Seleced option
+                var html = '';
+ 
+                // check selected
+                for (var i = 0; i < options.length; i++){
+                    if (options[i].selected){
+                        html += '<li>'+options[i].value+'</li>';
+                    }
+                }
+ 
+                // 
+                document.getElementById('province').innerHTML = html;
+            }*/
+
+
+            /*<!--<select id=province>
+                        <option value="1"></option>
+                    </select>-->*/
