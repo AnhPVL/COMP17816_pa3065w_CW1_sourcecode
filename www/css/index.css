@@ -1,0 +1,116 @@
+* {
+  -webkit-tap-highlight-color: transparent; /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+  -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+  -webkit-user-select: none; /* prevent copy paste, to allow, change "none" to "text" */
+  font-family: system-ui, -apple-system, -apple-system-font, "Segoe UI",
+    "Roboto", sans-serif;
+  font-size: 12px;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  /* Padding to avoid the "unsafe" areas behind notches in the screen */
+  padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px)
+    env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
+  width: 100%;
+}
+
+.ui-page .ui-header,
+.ui-page .ui-footer .ui-navbar ul li a {
+  width: 100%;
+  height: 50px;
+  color: #7F73E8;
+  text-shadow: none;
+  background-color: #0C174F;
+  border-color: #7F73E8;
+  
+}
+#ui-panel {
+list-style-type: none;
+text-align: center;
+}
+
+.active {
+  background-color: #7F73E8 !important;
+}
+
+h1 {
+  text-transform: uppercase;  
+  color: black;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase
+}
+h3 {
+ 
+  text-align: center;
+  
+}
+
+#btn-delete {
+  color: white;
+  background-color: #7F73E8;
+  border: none;
+  text-shadow: none;
+}
+
+.list {
+  border: solid 1px #003e70;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px;
+  padding: 5px 15px;
+  margin: 10px 0px;
+}
+
+#list-property{
+  margin: 0.01px;
+}
+#frm-register{
+  line-height: 25px;
+}
+
+#frm-confirm{
+  width: 100%;
+  line-height: 25px;
+}
+#frm-search{
+  line-height: 25px;
+  width: 80%;
+}
+#frm-update{
+  width: 100%;
+  font-weight: inherit;
+  line-height: 25px;
+
+}
+table{        
+  padding: inherit;
+  font-size: 1.25em;
+}
+th{
+  text-align: left;
+}
+#nav-panel{
+  padding: inherit;
+}
+#btn-form{
+  padding: inherit;
+}
+label{
+font-weight:bold;
+color:rgb(14, 61, 161);
+}
+.popup-container{
+  text-align: center;
+  width: min-content;
+}
+form{
+  font-size: 1.25em;
+  display: inline-block;
+}
